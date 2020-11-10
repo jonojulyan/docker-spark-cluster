@@ -1,5 +1,4 @@
  #!/bin/bash
- 
 /spark/bin/spark-submit \
 --class ${SPARK_APPLICATION_MAIN_CLASS} \
 --master ${SPARK_MASTER_URL} \
